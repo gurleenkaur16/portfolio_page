@@ -1,0 +1,233 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+header,
+footer,
+section {
+	float: left;
+}
+
+header {
+	background-image: url("../images/du2zAS.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+header h1 {
+	text-indent: 50px;
+	word-spacing: 10px;
+	float: left;
+}
+header h3 {
+	text-align: center;
+	margin: 0;
+}
+header ul {
+	float: right;
+}
+header img {
+    width: 33.33%;
+	height: 300px;
+}
+header ul li {
+	display: inline-block;
+	color: #fff;
+	background-color: #cc6633;
+	text-align: center;
+	margin: 10px 0;
+	padding: 10px 10px;
+}
+
+.col-3 {
+	display: inline-block;
+	width: 25%;
+	float: left;
+    text-align: center;
+}
+.tech {
+	width: 290px;
+	margin: 40px;
+}
+
+.col-3 img {
+	width: 170px;
+	height: 170px;
+}
+
+.col-3 .info {
+	text-align: justify;
+	height: 260px;
+}
+.techSection {
+	background-image: url('../images/images (1).jpg');
+	display: inline-block;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.academicsSection{
+	background-image: url('../images/robot-ai-2.jpg');
+	display: inline-block;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+}
+
+.academicsSection img{
+	width: 200px;
+	height: 200px;
+}
+
+
+.workSection{
+	background-image: url('../images/wp1828929.jpg');
+	display: inline-block;
+    width: 100%;
+    background-size: cover;
+}
+.col-4{
+	display: inline-block;
+	width: 33.33%;
+	float: left;
+    text-align: center;
+}
+
+.partA img{
+    width: 200px;
+    height: 200px;
+
+}
+
+.partB{
+	    width: 75%;
+    margin: 0 auto;
+}
+.workSectionImgDiv {
+    margin: 20px;
+}
+.partB p{
+	color: #fff;
+	margin-top: 175px;
+}
+
+.title {
+    background-image: -moz-linear-gradient( 90deg, rgb(7,6,6) 0%, rgb(255,255,255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(7,6,6) 0%, rgb(255,255,255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(7,6,6) 0%, rgb(255,255,255) 100%);
+    padding: 10px 15px;
+    width: 100%;
+    display: inline-block;
+}
+.slideSection img {
+    width: 100%;
+}
+
+.sectionTwo{
+		background-image: url('../images/light-blue-background-27.jpeg');
+	display: inline-block;
+    width: 100%;
+    background-size: cover;
+    padding: 15px;
+}
+
+.contact {
+	color:#fff;
+	text-align: center;
+	background-color: #333333;
+	font-size: 35px;
+	padding: 1px 0px 35px 0;
+	width: 100%;
+}
+footer {
+	width: 100%;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+}
+
+.flex-item {
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.readmore {
+	color:#fff;
+	background-color: #ff0000;
+	padding: 15px 10px;
+	border-radius: 4px;
+	width: 185px;
+	font-size: 21px;
+	margin: 0 auto;
+}
+
+
+/*///////////////////////////////////////*/
+
+@media screen and (max-width: 767px) {
+	body {
+		max-width: 100%
+	}
+	header img {
+		height: 100px;
+	}
+	.flex-item {
+		width: 100%;
+	}
+	.techSection.flex-container {
+		display: block;
+		background-size: contain;
+	}
+	.academicsSection {
+		text-align: center;
+	}
+	.workSection .col-4 {
+    display: inline-block;
+    width: 50%;
+    float: inherit;
+    text-align: center;
+	}
+	.partA img {
+    width: 100px;
+    height: 100px;
+	}
+	.partB {
+    width: 50%;
+	}
+	.partB p {
+    color: #fff;
+    margin-top: 20px;
+    text-align: left;
+	}
+	.contact{
+	font-size: 20px;
+    padding: 15px
+	}
+	footer img{
+    display: inline-block;
+    width: 100%;
+	}
+	.col-3 .info {
+    text-align: justify;
+    height: 180px;
+	}
+
+	.tech {
+	    margin: 10px 0px;
+	}
+
+}
